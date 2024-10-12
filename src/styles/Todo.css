@@ -1,0 +1,58 @@
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.todo-list--item {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  font-size: 1.8rem;
+}
+
+.todo--checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 1rem;
+}
+
+.todo--checkbox {
+  scale: 2;
+}
+
+.todo--text {
+  flex: 1;
+}
+
+.todo--delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  opacity: 0;
+  color: red;
+}
+
+.todo--delete:hover {
+  opacity: 1;
+}
